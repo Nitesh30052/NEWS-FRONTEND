@@ -1,0 +1,27 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #282c34;
+  }
+  
+  .category-list {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Arrange list items in a row */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .category-item {
+    margin: 0 15px; /* Spacing between items */
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .category-item:hover {
+    background-color: #0056b3; /* Change background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+  }
+  

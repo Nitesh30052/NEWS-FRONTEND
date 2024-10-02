@@ -1,0 +1,10 @@
+/* NewsList.css */
+.news-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ensures cards resize to fit available space */
+    gap: 16px; /* Space between cards */
+    padding: 20px;
+    background-color: #f9f9f9;
+    justify-items: center; /* Centers cards horizontally */
+  }
+  
